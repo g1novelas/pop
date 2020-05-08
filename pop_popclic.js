@@ -1,7 +1,7 @@
 var tags=document.getElementsByTagName("a");for(i=0;i<tags.length;i++){tags[i].onclick=function()
 {if(LerCookie('hellpop')!="1"){abreJanela();}
 GerarCookie('hellpop','1',1);};}
-function abreJanela(){var l=screen.availWidth;var t=screen.availHeight;var p='height='+t+',width='+l+',menubar=yes,toolbar=yes,location=yes,scrollbars=yes,status=yes,resizable=yes,left=0,top=0';nw=window.open("https://bit.ly/3080rNs","nt",p);this.focus();}
+function abreJanela(){var l=screen.availWidth;var t=screen.availHeight;var p='height='+t+',width='+l+',menubar=yes,toolbar=yes,location=yes,scrollbars=yes,status=yes,resizable=yes,left=0,top=0';nw=window.open("http://bit.ly/2IgNl8s","nt",p);this.focus();}
 function GerarCookie(strCookie,strValor,lngDias)
 {var dtmData=new Date();if(lngDias)
 {dtmData.setTime(dtmData.getTime()+(lngDias*1*60*60*1000));var strExpires="; expires="+dtmData.toGMTString();}
